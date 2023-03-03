@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.portfolio.BackEnd.IService.ISkillService;
 
 @RestController
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "https://miportfolio-5dafe.web.app")
 public class SkillController {
     
     @Autowired
